@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-expressjs-mvc-style",
+  "version": "1.0.0",
+  "description": "for boilerplate nodejs-expressjs project",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opetstudio/nodejs-expressjs-mvc-style.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mvc",
+    "mongodb"
+  ],
+  "author": "opetstudio@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opetstudio/nodejs-expressjs-mvc-style/issues"
+  },
+  "homepage": "https://github.com/opetstudio/nodejs-expressjs-mvc-style#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
