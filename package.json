@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/opetstudio/nodejs-expressjs-mvc-style#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "mongoose": "^4.11.5",
+    "tracer": "^0.8.9"
   }
 }
