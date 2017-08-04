@@ -3,4 +3,4 @@ nodejs expressjs mvc style for boilerplate/skeleton project
 
 ##Description of file and directory
 
-- config.js     = save all parameters to config the web app such as db connection.
+- config.js     = configuration for web app such as db connection.
