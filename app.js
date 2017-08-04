@@ -1,8 +1,10 @@
 var express = require('express');
 var config = require ('./config');
 var path = require('path');
+var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
+var MongoStore = require('connect-mongo')(session);
 
 var app = express();
 
