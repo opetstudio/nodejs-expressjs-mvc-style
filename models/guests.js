@@ -9,3 +9,14 @@ module.exports.schema = schema;
 var schemaObject =  new mongoose.Schema(schema);
 var model = mongoose.model('guests', schemaObject);
 module.exports = model;
+
+mdule.exports.createData = function(guestData,callback){
+        var guest = model(guestData);
+        guest.save(function(e,o){
+            if(e) return callback(false);
+            else{
+                callback(true,o);
+            }
+        });
+
+}
